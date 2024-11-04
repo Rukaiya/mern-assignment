@@ -12,8 +12,16 @@
     --font-size-base: 16px;
     --font-size-heading: 2rem;
     --font-size-subheading: 1.5rem;
+
+    /* color */
+    --color-secondary: #5E3BEE;
 }
 
 body {
     font-family: var(--font-primary);
+}
+
+#contact-btn {
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
 }
