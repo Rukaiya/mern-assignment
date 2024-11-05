@@ -18,6 +18,7 @@
     --color-white: #FFFFFF;
     --color-background: #F5FCFF;
     --color-pink: #E62872;
+    --color-emerald: #006B6A;
 }
 
 body {
@@ -60,5 +61,14 @@ body {
 
 .btn-underline img {
   height: 1rem;
+}
+
+/* testimonial */
+.star-icon {
+  color: var(--color-emerald);
+}
+
+.border-emerald {
+  border-color: var(--color-emerald);
 }
 
