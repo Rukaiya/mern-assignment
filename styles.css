@@ -37,6 +37,14 @@ body {
   background-color: var(--color-secondary);
 }
 
-#hero {
+.background-secondary {
   background-color: var(--color-background);
 }
+
+.card img {
+  width: 3rem;
+  height: auto;
+  background-color: var(--color-white);
+}
+
+
