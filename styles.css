@@ -17,6 +17,7 @@
     --color-secondary: #5E3BEE;
     --color-white: #FFFFFF;
     --color-background: #F5FCFF;
+    --color-pink: #E62872;
 }
 
 body {
@@ -41,10 +42,23 @@ body {
   background-color: var(--color-background);
 }
 
-.card img {
+.skills img {
   width: 3rem;
   height: auto;
   background-color: var(--color-white);
 }
 
+/* portfolio section */
+#visit-site {
+  color: var(--color-white);
+  background-color: var(--color-pink);
+}
+.btn-underline {
+  font-size: small;
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.btn-underline img {
+  height: 1rem;
+}
 
