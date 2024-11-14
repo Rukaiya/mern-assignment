@@ -16,7 +16,8 @@
     /* color */
     --color-secondary: #5E3BEE;
     --color-white: #FFFFFF;
-    --color-background: #F5FCFF;
+    --color-bg-blue-lgt: #F5FCFF;
+    --color-bg-green-lgt: #ECFFFD;
     --color-pink: #E62872;
     --color-emerald: #006B6A;
 }
@@ -39,8 +40,16 @@ body {
   background-color: var(--color-secondary);
 }
 
-.background-secondary {
-  background-color: var(--color-background);
+.bg-blue-light {
+  background-color: var(--color-bg-blue-lgt);
+}
+
+.bg-green-light {
+  background-color: var(--color-bg-green-lgt);
+}
+
+.bg-white {
+  background-color: var(--color-white);
 }
 
 .skills img {
